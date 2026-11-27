@@ -111,7 +111,7 @@ class Shop:
 
     def index_page(self):
         links = ''.join(f'<li><a href="/category/{c}">{n[0]}</a></li>' for c, n in CATEGORIES.items())
-        return f'<html><body><h1>Demo Shop</h1><ul class="cats">{links}</ul></body></html>'
+        return f'<html><body><h1>Nile Electronics</h1><ul class="cats">{links}</ul></body></html>'
 
 
 def make_handler(shop):
